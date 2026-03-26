@@ -1,61 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NextWave Solutions</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <style>
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-        body, html { height: 100%; font-family: 'Poppins', sans-serif; }
-        body {
-            background: linear-gradient(135deg, #667eea, #764ba2);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            color: white;
-            padding: 20px;
-        }
-        .container {
-            background: rgba(0,0,0,0.4);
-            padding: 40px 30px;
-            border-radius: 20px;
-            max-width: 500px;
-            width: 100%;
-            box-shadow: 0 0 30px rgba(0,0,0,0.5);
-        }
-        h1 {
-            font-size: 2.2em;
-            margin-bottom: 15px;
-        }
-        p {
-            font-size: 1.1em;
-            margin-bottom: 30px;
-        }
-        .btn {
-            display: inline-block;
-            padding: 15px 35px;
-            font-size: 1em;
-            background-color: #ff6b6b;
-            color: white;
-            text-decoration: none;
-            border-radius: 50px;
-            transition: 0.3s;
-        }
-        .btn:hover { background-color: #ff4757; }
-        @media(max-width: 600px){
-            h1 { font-size: 1.8em; }
-            p { font-size: 1em; }
-            .btn { padding: 12px 28px; font-size: 0.95em; }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NextWave Solutions</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body, html { height: 100%; font-family: 'Poppins', sans-serif; }
+    body {
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      padding: 20px;
+    }
+    .container {
+      background: rgba(0,0,0,0.45);
+      padding: 50px 30px;
+      border-radius: 20px;
+      max-width: 500px;
+      width: 100%;
+      box-shadow: 0 0 40px rgba(0,0,0,0.5);
+      transition: transform 0.3s ease;
+    }
+    .container:hover { transform: scale(1.02); }
+    h1 { font-size: 2.4em; margin-bottom: 15px; }
+    p { font-size: 1.2em; margin-bottom: 35px; }
+    .btn {
+      display: inline-block;
+      padding: 15px 40px;
+      font-size: 1em;
+      background-color: #ff6b6b;
+      color: white;
+      text-decoration: none;
+      border-radius: 50px;
+      transition: 0.3s;
+    }
+    .btn:hover { background-color: #ff4757; }
+    @media(max-width: 600px){
+      h1 { font-size: 2em; }
+      p { font-size: 1.05em; }
+      .btn { padding: 12px 30px; font-size: 0.95em; }
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Unlock Exclusive Solutions!</h1>
-        <p>Join NextWave Solutions today and get access to premium tips, insights, and offers for your business.</p>
-        <a class="btn" href="https://forms.gle/YOUR_FORM_LINK" target="_blank">Sign Up Now</a>
-    </div>
+  <div class="container">
+    <h1>Unlock Exclusive Solutions!</h1>
+    <p>Join NextWave Solutions today and get access to premium tips, insights, and offers for your business.</p>
+    <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLScQ15VK67kYup9KzoY_aWHfvSyffnapsIsfyD9yu0waJdGRLA/viewform?usp=publish-editor" target="_blank">Sign Up Now</a>
+  </div>
 </body>
 </html>
